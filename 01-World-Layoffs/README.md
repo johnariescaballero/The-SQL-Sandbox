@@ -2,6 +2,9 @@
 
 This project is part of my SQL Sandbox, where I tackle real-world datasets to demonstrate end-to-end data processing.
 
+## 🗺️ Database Schema (ERD)
+![World Layoffs ERD](Visuals/World_Layoffs_ERD.png)
+
 ## 🛠️ Phase 1: Data Cleaning
 
 * Staging Environments: Created layoffs_staging1 and layoffs_staging2.
