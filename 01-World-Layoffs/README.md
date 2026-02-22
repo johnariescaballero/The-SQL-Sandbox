@@ -1,8 +1,8 @@
-#📉 World Layoffs: Data Cleaning & Exploratory Analysis
+# 📉 World Layoffs: Data Cleaning & Exploratory Analysis
 
 This project is part of my SQL Sandbox, where I tackle real-world datasets to demonstrate end-to-end data processing.
 
-##🛠️ Phase 1: Data Cleaning
+## 🛠️ Phase 1: Data Cleaning
 
 * Staging Environments: Created layoffs_staging1 and layoffs_staging2.
 * Duplicate Removal: Utilized ROW_NUMBER() over a PARTITION.
@@ -13,13 +13,13 @@ This project is part of my SQL Sandbox, where I tackle real-world datasets to de
 * Date Formatting: Converted TEXT to DATE using STR_TO_DATE().
 * Null Value Logic: Employed a Self-Join to populate missing industry data.
 
-📈 Phase 2: Exploratory Data Analysis
+# 📈 Phase 2: Exploratory Data Analysis
 * Market Leaders: Identified companies with the highest total layoffs.
 * Industry Trends: Focused on Consumer and Retail sector impacts.
 * Time-Series: Created a Rolling Total of layoffs by month.
 * Rankings: Used DENSE_RANK() to find the top 5 companies per year.
 
-💻 Featured Query: Rolling Total
+# 💻 Featured Query: Rolling Total
 This query uses a CTE and a Window Function to track layoffs over time.
 
 SQL
